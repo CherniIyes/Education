@@ -1,9 +1,9 @@
 import React from "react"
 // import AboutCard from "../about/AboutCard"
-import Hblog from "./Hblog"
-import HAbout from "./HAbout"
+import Hblog from "./homeComponents/Hblog"
+import HAbout from "./homeComponents/HAbout"
 import Hero from "./hero/Hero"
-import Hprice from "./Hprice"
+import Hprice from "./homeComponents/Hprice"
 import Testimonal from "./testimonal/Testimonal"
 
 const Home = () => {
