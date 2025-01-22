@@ -3,6 +3,7 @@ import OnlineCourses from "@/components/allcourses/OnlineCourses"
 import Heading from "@/components/heading/Heading"
 import "@/components/allcourses/courses.css"
 import { coursesCard } from "@/data/index"
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const HAbout = () => {
   return (
@@ -16,14 +17,18 @@ const HAbout = () => {
             <div className='grid2'>
               {coursesCard.slice(0, 3).map((val) => (
                 <div className='items'>
+
                   <div className='content flex'>
+
                     <div className='left'>
                       <div className='img'>
                         <img src={val.cover} alt='' />
                       </div>
                     </div>
+
                     <div className='text'>
                       <h1>{val.coursesName}</h1>
+
                       <div className='rate'>
                         <i className='fa fa-star'></i>
                         <i className='fa fa-star'></i>
@@ -32,6 +37,7 @@ const HAbout = () => {
                         <i className='fa fa-star'></i>
                         <label htmlFor=''>(5.0)</label>
                       </div>
+
                       <div className='details'>
                         {val.courTeacher.map((details) => (
                           <>
@@ -47,20 +53,24 @@ const HAbout = () => {
                           </>
                         ))}
                       </div>
+
                     </div>
                   </div>
+
                   <div className='price'>
                     <h3>
                       {val.priceAll} / {val.pricePer}
                     </h3>
                   </div>
+
                   <button className='outline-btn'>ENROLL NOW !</button>
+
                 </div>
               ))}
             </div>
           </div>
         </div>
-        <OnlineCourses />
+        {/* <OnlineCourses /> */}
       </section>
     </>
   )
