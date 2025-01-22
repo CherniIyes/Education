@@ -18,8 +18,11 @@ const HAbout = () => {
               {coursesCard.slice(0, 3).map((val) => (
                 <div className='items'>
 
-                  <div className='content flex'>
 
+
+                  <div className='content flex'>
+                    {/* this is for the image(icon to the left)
+                    and the text(under and right to the icon ) */}
                     <div className='left'>
                       <div className='img'>
                         <img src={val.cover} alt='' />
@@ -57,6 +60,7 @@ const HAbout = () => {
                     </div>
                   </div>
 
+                  {/* price and enroll button */}
                   <div className='price'>
                     <h3>
                       {val.priceAll} / {val.pricePer}
