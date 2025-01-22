@@ -1,5 +1,5 @@
 .aboutHome {
-  height: auto;
+  /* height: auto; */
   margin-top: -650px;
 }
 
@@ -60,7 +60,7 @@
 
 /*----------awrapper------------*/
 .awrapper {
-  background-image: url("../../../public/images/awrapper.webp");
+  background-image: url("/images/awrapper.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
