@@ -1,10 +1,8 @@
 import React from "react"
 import Back from "../back/Back"
 import PriceCard from "./PriceCard"
-import "./price.css"
-import "@/app/globals.css"
-
 import Faq from "./Faq"
+import "./price.css"
 
 const Pricing = () => {
   return (
@@ -15,7 +13,7 @@ const Pricing = () => {
           <PriceCard />
         </div>
       </section>
-      <Faq />
+      {/* <Faq /> */}
     </div>
   )
 }
