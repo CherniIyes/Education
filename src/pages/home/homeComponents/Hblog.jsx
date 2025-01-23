@@ -17,7 +17,7 @@ const Hblog = () => {
                 <div className='img'>
                   <img src={val.cover} alt='' />
                 </div>
-                
+
                 <div className='text'>
                   <div className='admin flexSB'>
                     <span>
