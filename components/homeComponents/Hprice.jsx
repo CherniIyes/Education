@@ -1,9 +1,9 @@
 import React from "react"
-import "@/components/pricing/price.css"
+import "@/pages/pricing/price.css"
 import "@/app/globals.css"
 
 import Heading from "@/components/heading/Heading"
-import PriceCard from "@/components/pricing/Pricing"
+import PriceCard from "@/pages/pricing/PriceCard"
 
 const Hprice = () => {
   return (

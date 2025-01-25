@@ -1,11 +1,12 @@
 import React from "react"
-import AboutCard from "@/components/about/AboutCard"
-import Hblog from "./homeComponents/Hblog"
-import HAbout from "./homeComponents/HAbout"
 import Hero from "../hero/Hero"
-import Hprice from "./homeComponents/Hprice"
+import AboutCard from "../about/AboutCard"
+import HAbout from "./homeComponents/HAbout"
 import Testimonal from "../testimonal/Testimonal"
-import Faq from "@/components/pricing/Faq"
+import Hblog from "./homeComponents/Hblog"
+import Hprice from "./homeComponents/Hprice"
+import Faq from "../pricing/Faq"
+
 
 const Home = () => {
   return (

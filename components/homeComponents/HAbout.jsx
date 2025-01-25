@@ -1,9 +1,9 @@
 import React from "react"
-import OnlineCourses from "@/components/allcourses/OnlineCourses"
-import Heading from "@/components/heading/Heading"
-import "@/components/allcourses/courses.css"
+import "@/pages/allcourses//courses.css"
 import { coursesCard } from "@/data/index"
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Heading from "@/components/heading/Heading";
+import OnlineCourses from "@/pages/allcourses/OnlineCourses";
 
 const HAbout = () => {
   return (

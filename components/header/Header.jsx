@@ -7,6 +7,7 @@ import "./header.css"
 const Header = () => {
   const [click, setClick] = useState(false)
 
+
   return (
     <>
       <Head />
@@ -18,7 +19,8 @@ const Header = () => {
               <Link href='/'>Home</Link>
             </li>
             <li>
-              <Link href='/courses'>All Courses</Link>
+              <Link href='/pages/Sayebzny'>All Courses</Link>
+              
             </li>
             <li>
               <Link href='/about'>About</Link>
