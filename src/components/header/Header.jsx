@@ -1,5 +1,6 @@
+"use client"
 import React, { useState } from "react"
-import { Link } from "react-router-dom"
+import Link from 'next/link';
 import Head from "./Head"
 import "./header.css"
 
@@ -13,25 +14,26 @@ const Header = () => {
         <nav className='flexSB'>
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
             <li>
-              <Link to='/'>Home</Link>
+
+              <Link href='/'>Home</Link>
             </li>
             <li>
-              <Link to='/courses'>All Courses</Link>
+              <Link href='/courses'>All Courses</Link>
             </li>
             <li>
-              <Link to='/about'>About</Link>
+              <Link href='/about'>About</Link>
             </li>
             <li>
-              <Link to='/team'>Team</Link>
+              <Link href='/team'>Team</Link>
             </li>
             <li>
-              <Link to='/pricing'>Pricing</Link>
+              <Link href='/pricing'>Pricing</Link>
             </li>
             <li>
-              <Link to='/journal'>Journal</Link>
+              <Link href='/journal'>Journal</Link>
             </li>
             <li>
-              <Link to='/contact'>Contact</Link>
+              <Link href='/contact'>Contact</Link>
             </li>
           </ul>
           <div className='start'>
